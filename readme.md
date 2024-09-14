@@ -94,10 +94,10 @@ logger.error('This is an error message');
    scrape_configs:
      - job_name: "deposit_tracker"
        static_configs:
-         - targets: ["app:9090"]
+         - targets: ["app:8080"]
    ```
 
-   Note: Replace `app:9090` with the appropriate hostname and port where your application is running.
+   Note: Replace `app:8080` with the appropriate hostname and port where your application is running.
 
 3. Restart Prometheus to apply the new configuration.
 
